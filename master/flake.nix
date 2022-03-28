@@ -11,7 +11,6 @@
   inputs.src-hsluv-master.ref   = "refs/heads/master";
   inputs.src-hsluv-master.owner = "isthisnagee";
   inputs.src-hsluv-master.repo  = "hsluv-nim";
-  inputs.src-hsluv-master.dir   = "";
   inputs.src-hsluv-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
